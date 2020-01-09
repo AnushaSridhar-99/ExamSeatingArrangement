@@ -4,9 +4,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Admin login</title>
+	<script>
+	
+	</script>
+	
+	<title>Admin login</title>
 </head>
 <body>
-	
+	<div class="admin">
+		<p>Admin login</p>
+		<input type="text" name = "AdminName">
+		<input type="text" name = "password">
+		<input action="AdminProfile.jsp" type="submit" name = "submit">
+	</div>
 </body>
 </html>
